@@ -26,7 +26,7 @@ namespace Digipender.ucPanel
         private void InitializeWebDriver()
         {
             // 크롬 드라이버 초기화
-          /*  try
+          try
             {
                 ChromeOptions options = new ChromeOptions();
                 options.AddArgument("--headless");
@@ -93,7 +93,7 @@ namespace Digipender.ucPanel
                 };
 
                 richResult.AppendText(Environment.NewLine + Environment.NewLine);
-            }*/
+            }
         }
 
 
